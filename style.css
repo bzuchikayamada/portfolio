@@ -1,0 +1,33 @@
+body{
+    background: #ebd494;
+    color: #a77e58;
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+.header{
+    margin-bottom: 35px;
+    background: #fff9c2;
+}
+ul{
+    font-family: 'Mv Boli','Noteworthy',sans-serif;
+    list-style-type: none;
+    width: 480px;
+    margin: 0 auto;
+    padding-right: 40px;
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+    padding: 10px 25px;
+}
+.home,.access{
+    width: 94px;
+}
+.main{
+    background: #fff9c2;
+}
+.footer{
+    background: #d7ebba;
+}
