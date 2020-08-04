@@ -5,9 +5,10 @@ body{
 .container{
     width: 1000px;
     margin: 0 auto;
+    text-align: center;
 }
 .header{
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     background: #fff9c2;
     text-align:center;
 }
@@ -29,9 +30,17 @@ ul li:hover{
 .home,.access{
     width: 94px;
 }
-.main{
+main{
     background: #fff9c2;
+    margin-bottom: 20px;
+}
+.about{
+    padding: 10px;
 }
 .footer{
     background: #d7ebba;
+    padding: 10px;
+}
+.ranking img{
+    width: 250px;
 }
