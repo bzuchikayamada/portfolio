@@ -37,10 +37,34 @@ main{
 .about{
     padding: 10px;
 }
-.footer{
-    background: #d7ebba;
-    padding: 10px;
+.ranking{
+    position: relative;
+    height: 780px;
 }
 .ranking img{
     width: 250px;
+}
+.ranking p{
+    margin: 0;
+}
+.rank1,.rank2,.rank3{
+    width: 400px;
+    position: absolute;
+    background: rgba(254,255,241,0.5);
+    padding: 20px 0px;
+}
+.rank1{
+    left: 300px;
+}
+.rank2{
+    top: 415px;
+    left: 50px;
+}
+.rank3{
+    top: 415px;
+    right: 50px;
+}
+.footer{
+    background: #d7ebba;
+    padding: 10px;
 }
