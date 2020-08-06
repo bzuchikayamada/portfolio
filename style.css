@@ -7,7 +7,7 @@ body{
     margin: 0 auto;
     text-align: center;
 }
-.header{
+header{
     margin-bottom: 20px;
     background: #fff9c2;
     text-align:center;
@@ -39,7 +39,7 @@ main{
 }
 .ranking{
     position: relative;
-    height: 780px;
+    height: 880px;
 }
 .ranking img{
     width: 250px;
@@ -57,12 +57,44 @@ main{
     left: 300px;
 }
 .rank2{
-    top: 415px;
+    top: 460px;
     left: 50px;
 }
 .rank3{
-    top: 415px;
+    top: 460px;
     right: 50px;
+}
+.ribbon1{
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 30px;
+    margin: 0;
+    background: yellow;
+    box-sizing: border-box;
+}
+.ribbon:before,.ribbon1:after{
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 0px;
+    z-index: 1;
+}
+.ribbon1:before{
+    top: 0;
+    left: 0;
+    border-width: 25px 0px 25px 15px;
+    border-color: transparent transparent transparent #fff;
+    border-style: solid;
+}
+.ribbon1:after{
+    top: 0;
+    right: 0;
+    border-width: 25px 15px 25px 0px;
+    border-color: transparent #fff transparent transparent;
+    border-style: solid;
 }
 .footer{
     background: #d7ebba;
