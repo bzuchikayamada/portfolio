@@ -38,8 +38,7 @@ main{
     padding: 10px;
 }
 .ranking{
-    position: relative;
-    height: 880px;
+    height: 780px;
 }
 .ranking img{
     width: 250px;
@@ -49,52 +48,49 @@ main{
 }
 .rank1,.rank2,.rank3{
     width: 400px;
-    position: absolute;
     background: rgba(254,255,241,0.5);
     padding: 20px 0px;
+    position: relative;
 }
 .rank1{
-    left: 300px;
+    margin: 0 auto;
 }
-.rank2{
-    top: 460px;
-    left: 50px;
+.rank2,.rank3{
+    float: left;
+    margin: 2% 5%;
 }
-.rank3{
-    top: 460px;
-    right: 50px;
-}
-.ribbon1{
+.ribbon1,.ribbon2,.ribbon3{
     display: inline-block;
-    position: relative;
-    width: 250px;
-    height: 50px;
-    line-height: 50px;
-    padding: 0px 30px;
-    margin: 0;
-    background: yellow;
-    box-sizing: border-box;
-}
-.ribbon:before,.ribbon1:after{
     position: absolute;
-    content: '';
-    width: 0px;
-    height: 0px;
-    z-index: 1;
-}
-.ribbon1:before{
-    top: 0;
     left: 0;
-    border-width: 25px 0px 25px 15px;
-    border-color: transparent transparent transparent #fff;
-    border-style: solid;
+    top: 5px;
+    padding: 0 12px;
+    margin: 0;
+    height: 30px;
+    line-height:30px;
+    color: white;
+    background: #70c7ff;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.12);
 }
-.ribbon1:after{
+.ribbon1:before,.ribbon2:before,.ribbon3:before{
+    position: absolute;
+    content: "";
     top: 0;
-    right: 0;
-    border-width: 25px 15px 25px 0px;
-    border-color: transparent #fff transparent transparent;
-    border-style: solid;
+    left: -7px;
+    height: 38px;
+    width: 7px;
+    background: #70c7ff;
+    border-radius: 5px 0 0 5px;
+}
+.ribbon1:after,.ribbon2:after,.ribbon3:after{
+    position: absolute;
+    content: "";
+    bottom: -7px;
+    left: -5px;
+    height: 7px;
+    width: 5px;
+    background: #4d99ca;
+    border-radius: 5px 0 0 5px;
 }
 .footer{
     background: #d7ebba;
