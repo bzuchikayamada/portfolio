@@ -10,21 +10,25 @@ body{
 header{
     margin-bottom: 20px;
     background: #fff9c2;
-    text-align:center;
+    text-align: center;
 }
 ul{
     font-family: 'Mv Boli','Noteworthy',sans-serif;
     list-style-type: none;
     width: 480px;
     margin: 0 auto;
-    padding-right: 40px;
+    padding: 15px 40px;
 }
-ul li{
-    display: inline-block;
+li{
+    display: inline;
+}
+ul li a{
     padding: 10px 25px;
     font-size: 22px;
+    text-decoration: none;
+    color: #a77e58;
 }
-ul li:hover{
+ul li a:hover{
     color: #9ad2cb;
 }
 .home,.access{
@@ -34,8 +38,13 @@ main{
     background: #fff9c2;
     margin-bottom: 20px;
 }
+main h2{
+    width: 360px;
+    border-bottom: dashed 3px;
+    margin: 0 auto;
+}
 .about{
-    padding: 10px;
+    padding: 20px;
 }
 .ranking{
     height: 780px;
@@ -45,6 +54,9 @@ main{
 }
 .ranking p{
     margin: 0;
+}
+.top3{
+    margin-top: 16px;
 }
 .rank1,.rank2,.rank3{
     width: 400px;
@@ -69,7 +81,7 @@ main{
     height: 30px;
     line-height:30px;
     color: white;
-    background: #70c7ff;
+    background: #fc5d67;
     box-shadow: 0 2px 2px rgba(0,0,0,0.12);
 }
 .ribbon1:before,.ribbon2:before,.ribbon3:before{
@@ -79,7 +91,7 @@ main{
     left: -7px;
     height: 38px;
     width: 7px;
-    background: #70c7ff;
+    background: #fc5d67;
     border-radius: 5px 0 0 5px;
 }
 .ribbon1:after,.ribbon2:after,.ribbon3:after{
@@ -89,7 +101,7 @@ main{
     left: -5px;
     height: 7px;
     width: 5px;
-    background: #4d99ca;
+    background: #a61f3f;
     border-radius: 5px 0 0 5px;
 }
 .footer{
