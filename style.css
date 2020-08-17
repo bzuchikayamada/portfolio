@@ -104,6 +104,9 @@ main h2{
     background: #a61f3f;
     border-radius: 5px 0 0 5px;
 }
+.map img{
+    margin: 16px 0px;
+}
 .footer{
     background: #d7ebba;
     padding: 10px;
