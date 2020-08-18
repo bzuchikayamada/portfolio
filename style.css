@@ -105,7 +105,26 @@ main h2{
     border-radius: 5px 0 0 5px;
 }
 .map img{
-    margin: 16px 0px;
+    margin-top: 16px;
+}
+.recommend{
+    margin: 0 auto;
+    width: 950px;
+}
+.recommend img{
+    width: 400px;
+    height: 300px;
+}
+.recommend h3{
+    margin: 0;
+}
+.park p,.street p{
+    margin-top: 0;
+}
+.park,.street{
+    width: 450px;
+    display: inline-block;
+    margin-top: 16px;
 }
 .footer{
     background: #d7ebba;
