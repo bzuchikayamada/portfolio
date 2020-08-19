@@ -126,6 +126,9 @@ main h2{
     display: inline-block;
     margin-top: 16px;
 }
+.lesson1 img,.lesson2 img{
+    width: 400px;
+}
 .footer{
     background: #d7ebba;
     padding: 10px;
