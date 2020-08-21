@@ -42,12 +42,13 @@ main h2{
     width: 360px;
     border-bottom: dashed 3px;
     margin: 0 auto;
+    padding-top: 50px;
 }
 .about{
     padding: 20px;
 }
 .ranking{
-    height: 780px;
+    height: 840px;
 }
 .ranking img{
     width: 250px;
@@ -107,6 +108,14 @@ main h2{
 .map img{
     margin-top: 16px;
 }
+.map p{
+    width: 360px;
+    margin: 0 auto;
+}
+.direction{
+    display: block;
+    text-align: left;
+}
 .recommend{
     margin: 0 auto;
     width: 950px;
@@ -126,15 +135,24 @@ main h2{
     display: inline-block;
     margin-top: 16px;
 }
+.lessson1,.lesson2{
+    width: 880px;
+    margin: 0 auto;
+}
 .lesson1 img,.lesson2 img{
     width: 400px;
+    height: 630px;
+    vertical-align: middle;
+}
+.about_lesson{
+    width: 400px;
     display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
 }
 .lesson1 p,.lesson2 p{
-    display: inline-block;
     text-align: left;
-    width: 364px;
-    margin: 0px 30px;
+    padding: 0px 30px;
 }
 .capacity1{
     color: blue;
