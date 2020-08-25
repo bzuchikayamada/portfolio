@@ -141,6 +141,9 @@ main h2{
     display: inline-block;
     margin-top: 16px;
 }
+.lesson_main{
+    height: 1900px;
+}
 .lesson1,.lesson2{
     width: 880px;
     margin: 0 auto;
@@ -167,7 +170,23 @@ main h2{
 .capacity2{
     color: red;
 }
-/* lesson部分は引き続き装飾中です。capacity1,2の文字の色はそれぞれ暫定的なものです。 */
+.reservation{
+    width: 800px;
+    margin: 0 auto;
+    background: rgba(254,255,241);
+    border: dashed 2px;
+    padding: 10px;
+    box-shadow: 0px 0px 0px 10px rgba(254,255,241);
+    border-radius: 8px;
+}
+.item{
+    text-align: left;
+}
+.label{
+    display: inline-block;
+    padding: 10px;
+    width: 180px;
+}
 .footer{
     background: #d7ebba;
     padding: 10px;
