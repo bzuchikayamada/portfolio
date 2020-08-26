@@ -37,6 +37,7 @@ ul li a:hover{
 main{
     background: #fff9c2;
     margin-bottom: 20px;
+    padding-bottom: 25px;
 }
 main h2{
     width: 360px;
@@ -134,15 +135,12 @@ main h2{
     margin: 0;
 }
 .park p,.street p{
-    margin-top: 0;
+    margin: 10px;
 }
 .park,.street{
     width: 450px;
     display: inline-block;
     margin-top: 16px;
-}
-.lesson_main{
-    height: 1900px;
 }
 .lesson1,.lesson2{
     width: 880px;
@@ -170,14 +168,17 @@ main h2{
 .capacity2{
     color: red;
 }
-.reservation{
+.reserve_lesson{
     width: 800px;
     margin: 0 auto;
     background: rgba(254,255,241);
-    border: dashed 2px;
     padding: 10px;
-    box-shadow: 0px 0px 0px 10px rgba(254,255,241);
     border-radius: 8px;
+}
+.reservation_form{
+    border: dashed 2px;
+    border-radius: 8px;
+    padding: 20px;
 }
 .item{
     text-align: left;
@@ -190,4 +191,10 @@ main h2{
 .footer{
     background: #d7ebba;
     padding: 10px;
+}
+@media screen and (max-width: 959px){
+
+}
+@media screen and (max-width: 480px){
+    
 }

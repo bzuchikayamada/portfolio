@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">">
     <title>くま's Bakery</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -18,7 +18,7 @@
                 </ul>
             </nav>
         </header>
-        <main class="lesson_main">
+        <main>
             <h2>レッスンのご案内 ※予約制</h2>
             <p>
                 月に一度のレッスンを2つ用意しております。<br>
@@ -59,34 +59,36 @@
                     </p>
                 </div>
             </div>
-            <section class="reservation">
-                <h3>レッスン予約フォーム</h3>
-                <form method="post">
-                    <div class="item">
-                        <label class="label" for="name">代表者氏名</label>
-                        <input id="name" type="text" name="yourname">
-                    </div>
-                    <div class="item">
-                        <p class="label">予約するレッスン</p>
-                        <input id="beginner" type="radio" name="lessontype" value="beginner"><label for="beginner">初心者向けレッスン</label>
-                        <input id="kids" type="radio" name="lessontype" value="kids"><label for="kids">親子で一緒に作ろう！動物パンレッスン</label>
-                    </div>
-                    <div class="item">
-                        <label class="label" for="people">予約人数</label>
-                        <input id="people" type="number" name="people">
-                    </div>
-                    <div class="item">
-                        <label class="label" for="detail">お子様のお名前と年齢</label>
-                        <textarea id="detail" name="detail" placeholder="山田太郎5歳、山田花子3歳"></textarea>
-                    </div>
-                    <div class="item">
-                        <label  class="label" for="tel">電話番号</label>
-                        <input id="tel" type="number" name="tel" placeholder="000-1234-5678">
-                    </div>
-                    <input type="submit" value="予約する">
-                </form>
+            <div class="reserve_lesson">
+                <section class="reservation_form">
+                    <h3>レッスン予約フォーム</h3>
+                    <form method="post">
+                        <div class="item">
+                            <label class="label" for="name">代表者氏名</label>
+                            <input id="name" type="text" name="yourname">
+                        </div>
+                        <div class="item">
+                            <p class="label">予約するレッスン</p>
+                            <input id="beginner" type="radio" name="lessontype" value="beginner"><label for="beginner">初心者向けレッスン</label>
+                            <input id="kids" type="radio" name="lessontype" value="kids"><label for="kids">親子で一緒に作ろう！動物パンレッスン</label>
+                        </div>
+                        <div class="item">
+                            <label class="label" for="people">予約人数</label>
+                            <input id="people" type="number" name="people">
+                        </div>
+                        <div class="item">
+                            <label class="label" for="detail">お子様のお名前と年齢</label>
+                            <textarea id="detail" name="detail" placeholder="山田太郎5歳、山田花子3歳"></textarea>
+                        </div>
+                        <div class="item">
+                            <label  class="label" for="tel">電話番号</label>
+                            <input id="tel" type="number" name="tel" placeholder="000-1234-5678">
+                        </div>
+                        <input type="submit" value="予約する">
+                    </form>
+                </section>
                 <!-- JSやPHPの勉強は全くできていないので今は予約フォームの骨組みだけ作っています -->
-            </section>
+            </div>
         </main>
         <div class="footer">
             <p>〒000-0000<br>東京都〇〇市△△町1−1−1<br>
