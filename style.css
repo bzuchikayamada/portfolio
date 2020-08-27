@@ -48,11 +48,8 @@ main h2{
 .about{
     padding: 20px;
 }
-.ranking{
-    height: 840px;
-}
 .ranking img{
-    width: 250px;
+    width: 70%;
 }
 .ranking p{
     margin: 0;
@@ -61,17 +58,17 @@ main h2{
     margin-top: 16px;
 }
 .rank1,.rank2,.rank3{
-    width: 400px;
+    width: 40%;
     background: rgba(254,255,241,0.5);
-    padding: 20px 0px;
+    padding: 3% 0%;
     position: relative;
 }
 .rank1{
     margin: 0 auto;
 }
 .rank2,.rank3{
-    float: left;
-    margin: 2% 5%;
+    display: inline-block;
+    margin: 4%;
 }
 .ribbon1,.ribbon2,.ribbon3{
     display: inline-block;
@@ -193,7 +190,12 @@ main h2{
     padding: 10px;
 }
 @media screen and (max-width: 959px){
-
+    *{
+        box-sizing: border-box;
+    }
+    .container{
+        width: 100%;
+    }
 }
 @media screen and (max-width: 480px){
     
