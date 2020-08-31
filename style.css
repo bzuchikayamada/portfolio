@@ -15,9 +15,9 @@ header{
 ul{
     font-family: 'Mv Boli','Noteworthy',sans-serif;
     list-style-type: none;
-    width: 480px;
+    width: 95%;
     margin: 0 auto;
-    padding: 15px 40px;
+    padding: 5% 0;
 }
 li{
     display: inline;
@@ -30,9 +30,6 @@ ul li a{
 }
 ul li a:hover{
     color: #9ad2cb;
-}
-.home,.access{
-    width: 94px;
 }
 main{
     background: #fff9c2;
@@ -231,5 +228,19 @@ footer{
 @media screen and (max-width: 480px){
     .container{
         width: 100%;
+    }
+    li{
+        display: block;
+        padding: 2%;
+        margin: 2%;
+        background: rgba(254,255,241,0.5);
+        border-radius: 30px;
+    }
+    li:hover{
+        background: #fefff1;
+    }
+    ul li a{
+        display: block;
+        padding: 0;
     }
 }
