@@ -1,6 +1,10 @@
+html{
+    font-size: 62.5%;
+}
 body{
     background: #ebd494;
     color: #a77e58;
+    font-size: 1.6rem;
 }
 .container{
     width: 1000px;
@@ -24,7 +28,7 @@ li{
 }
 ul li a{
     padding: 10px 25px;
-    font-size: 22px;
+    font-size: calc(2rem + (1vw - 0.56rem) * 1.0000);
     text-decoration: none;
     color: #a77e58;
 }
@@ -37,10 +41,11 @@ main{
     padding-bottom: 25px;
 }
 main h2{
-    width: 360px;
+    width:360px;
     border-bottom: dashed 3px;
     margin: 0 auto;
     padding-top: 50px;
+    font-size: calc(2rem + (1vw - 0.56rem) * 1.0000);
 }
 .about{
     padding: 20px;
@@ -193,12 +198,27 @@ footer{
     *{
         box-sizing: border-box;
     }
+    body{
+        font-size: 1.4rem;
+    }
     .container{
         width: 100%;
     }
     header img{
         max-width: 100%;
         height: auto;
+    }
+    main h2{
+        font-size: 2.4rem;
+        width: 100%;
+    }
+    /* 各ページの見出しの装飾は修正中です。 */
+    .about{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .about p{
+        text-align: left;
     }
     .ribbon{
         display: none;
@@ -226,6 +246,9 @@ footer{
     }
 }
 @media screen and (max-width: 480px){
+    body{
+        font-size: 1.0rem;
+    }
     .container{
         width: 100%;
     }
@@ -242,5 +265,8 @@ footer{
     ul li a{
         display: block;
         padding: 0;
+    }
+    main h2{
+        font-size: 2.0rem;
     }
 }
