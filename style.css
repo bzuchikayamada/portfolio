@@ -16,23 +16,23 @@ header{
     background: #fff9c2;
     text-align: center;
 }
-ul{
+.menu_nav{
     font-family: 'Mv Boli','Noteworthy',sans-serif;
     list-style-type: none;
     width: 95%;
     margin: 0 auto;
     padding: 5% 0;
 }
-li{
+.menu_nav li{
     display: inline;
 }
-ul li a{
+.menu_nav a{
     padding: 10px 25px;
     font-size: calc(2rem + (1vw - 0.56rem) * 1.0000);
     text-decoration: none;
     color: #a77e58;
 }
-ul li a:hover{
+.menu_nav a:hover{
     color: #9ad2cb;
 }
 main{
@@ -65,7 +65,7 @@ main h2{
     margin: 0;
 }
 .top3{
-    margin-top: 16px;
+    margin-top: 5%;
 }
 .rank1,.rank2,.rank3{
     width: 40%;
@@ -116,24 +116,30 @@ main h2{
 .ribbon_small{
     display: none;
 }
-.map img{
+.map{
     width: 70%;
-    margin-top: 16px;
+    margin-top: 5%;
 }
-.map p{
+.access{
     width: 40%;
     margin: 0 auto;
     padding: 10% 8% 0;
 }
-.direction{
-    display: block;
+.access p{
+    padding: 3% 0;
+}
+.access ul{
     text-align: left;
-    padding: 10px;
+    padding: 3%;
     font-weight: bold;
 }
+.access li{
+    list-style-type: decimal;
+}
+/* 「周辺のおすすめスポット」はレスポンシブ対応中 */
 .recommend{
     margin: 0 auto;
-    width: 950px;
+    width: 95%;
 }
 .recommend img{
     width: 400px;
@@ -147,9 +153,8 @@ main h2{
     margin: 10px;
 }
 .park,.street{
-    width: 450px;
     display: inline-block;
-    margin-top: 16px;
+    margin-top: 5%;
 }
 .lesson1,.lesson2{
     width: 880px;
@@ -240,9 +245,12 @@ footer{
         border-right: 20px solid #fc5d67;
         border-bottom: 10px solid transparent;
     }
-    .map p{
+    .access{
         width: 70%;
         text-align: left;
+    }
+    .br-tab{
+        display: none;
     }
 }
 @media screen and (max-width: 480px){
@@ -252,17 +260,17 @@ footer{
     .container{
         width: 100%;
     }
-    li{
+    .menu_nav li{
         display: block;
         padding: 2%;
         margin: 2%;
         background: rgba(254,255,241,0.5);
         border-radius: 30px;
     }
-    li:hover{
+    .menu_nav li:hover{
         background: #fefff1;
     }
-    ul li a{
+    .menu_nav a{
         display: block;
         padding: 0;
     }
