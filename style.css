@@ -141,20 +141,20 @@ main h2{
     margin: 0 auto;
     width: 95%;
 }
-.recommend img{
+.spot img{
     width: 400px;
     height: 300px;
     padding: 0px 30px 30px;
 }
-.recommend h3{
+.spot h3{
     margin: 0;
 }
-.park p,.street p{
-    margin: 10px;
-}
-.park,.street{
+.spot{
     display: inline-block;
     margin-top: 5%;
+}
+.spot p{
+    margin: 10px;
 }
 .lesson1,.lesson2{
     width: 880px;
@@ -245,6 +245,7 @@ footer{
         border-right: 20px solid #fc5d67;
         border-bottom: 10px solid transparent;
     }
+    /* homeの人気ランキングのレスポンシブ対応は未着手です。 */
     .access{
         width: 70%;
         text-align: left;
@@ -252,6 +253,14 @@ footer{
     .br-tab{
         display: none;
     }
+    .spot{
+        display: block;
+    }
+    .spot img{
+        width: 50%;
+        height: auto;
+    }
+    /* 写真に対して説明文のフォントサイズが大きい気がするので次回修正します。 */
 }
 @media screen and (max-width: 480px){
     body{
