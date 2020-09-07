@@ -50,6 +50,19 @@ main h2{
 .br-pc{
     display: block;
 }
+.promotion{
+    padding-top: 15%;
+}
+.pv{
+    width: 80%;
+    padding: 5% 0;
+    margin: 0 auto;
+    background: rgba(254,255,241,0.5);
+    border-radius: 8px;
+}
+video{
+    width: 70%;
+}
 .about p{
     width: 80%;
     padding-top: 5%;
@@ -133,7 +146,6 @@ main h2{
 .access li{
     list-style-type: decimal;
 }
-/* 「周辺のおすすめスポット」はレスポンシブ対応中 */
 .recommend{
     margin: 0 auto;
     width: 95%;
@@ -153,6 +165,7 @@ main h2{
 .spot p{
     margin: 3%;
 }
+/* おすすめスポットの説明文はモバイル時に左づめ予定。次回対応します。 */
 .lesson1,.lesson2{
     width: 880px;
     margin: 0 auto;
@@ -217,6 +230,12 @@ footer{
     }
     main h2{
         font-size: 2.4rem;
+    }
+    .pv{
+        width: 90%;
+    }
+    video{
+        width: 90%;
     }
     .ribbon{
         display: none;
@@ -289,6 +308,9 @@ footer{
     }
     .br-pc{
         display: none;
+    }
+    .promotion{
+        padding-top: 25%;
     }
     .about p{
         text-align: left;
