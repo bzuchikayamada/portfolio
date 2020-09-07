@@ -50,9 +50,6 @@ main h2{
 .br-pc{
     display: block;
 }
-.br-sp{
-    display: none;
-}
 .about p{
     width: 80%;
     padding-top: 5%;
@@ -117,7 +114,7 @@ main h2{
     display: none;
 }
 .map{
-    width: 70%;
+    width: 80%;
     margin-top: 5%;
 }
 .access{
@@ -141,20 +138,20 @@ main h2{
     margin: 0 auto;
     width: 95%;
 }
+.spot{
+    display: inline-block;
+    margin-top: 5%;
+}
 .spot img{
     width: 400px;
     height: 300px;
     padding: 0px 30px 30px;
 }
 .spot h3{
-    margin: 0;
-}
-.spot{
-    display: inline-block;
-    margin-top: 5%;
+    margin: 5%;
 }
 .spot p{
-    margin: 10px;
+    margin: 3%;
 }
 .lesson1,.lesson2{
     width: 880px;
@@ -235,6 +232,7 @@ footer{
         height: auto;
         color: white;
         background: #fc5d67;
+        font-size: 2.0rem;
     }
     .ribbon_small:after{
         position: absolute;
@@ -245,7 +243,6 @@ footer{
         border-right: 20px solid #fc5d67;
         border-bottom: 10px solid transparent;
     }
-    /* homeの人気ランキングのレスポンシブ対応は未着手です。 */
     .access{
         width: 70%;
         text-align: left;
@@ -257,10 +254,13 @@ footer{
         display: block;
     }
     .spot img{
-        width: 50%;
+        width: 70%;
         height: auto;
+        padding: 0;
     }
-    /* 写真に対して説明文のフォントサイズが大きい気がするので次回修正します。 */
+    .spot h3{
+        font-size: 2.0rem;
+    }
 }
 @media screen and (max-width: 480px){
     body{
@@ -290,14 +290,30 @@ footer{
     .br-pc{
         display: none;
     }
-    .br-sp{
-        display: block;
-    }
     .about p{
         text-align: left;
     }
     .top3 p{
         font-size: 1.2rem;
+    }
+    .rank1,.rank2,.rank3{
+        width: 70%;
+    }
+    .rank2,.rank3{
+        display: block;
+        margin: 10% auto;
+    }
+    .ribbon_small{
+        font-size: 1.8rem;
+    }
+    .map{
+        width: 85%;
+    }
+    .spot img{
+        width: 80%;
+    }
+    .spot h3{
+        font-size: 1.8rem;
     }
     footer{
         font-size: 1.0rem;
