@@ -172,21 +172,21 @@ video{
 .lesson1,.lesson2{
     width: 88%;
     margin: 0 auto;
-    padding: 30px;
+    padding: 3%;
 }
 .lesson1 img,.lesson2 img{
     width: 50%;
     vertical-align: middle;
 }
 .about_lesson{
-    width: 400px;
+    width: 40%;
     display: inline-block;
     vertical-align: middle;
-    margin-left: 30px;
+    margin-left: 3%;
 }
 .lesson1 p,.lesson2 p{
     text-align: left;
-    padding: 0px 30px;
+    padding: 0 5%;
 }
 .capacity1{
     color: blue;
@@ -194,6 +194,7 @@ video{
 .capacity2{
     color: red;
 }
+/* 各レッスンの情報の項目や改行は次回見やすく整えます */
 .reserve_lesson{
     width: 80%;
     margin: 0 auto;
@@ -214,6 +215,7 @@ video{
     padding: 10px;
     width: 180px;
 }
+/* 予約フォームのレスポンシブ対応は未着手です。 */
 footer{
     background: #d7ebba;
     padding: 10px;
@@ -281,6 +283,14 @@ footer{
     }
     .spot h3,.about_lesson h3{
         font-size: 2.0rem;
+    }
+    .about_lesson{
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .lesson1 p,.lesson2 p{
+        text-align: center;
     }
 }
 @media screen and (max-width: 480px){
