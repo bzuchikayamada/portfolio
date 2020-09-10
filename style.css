@@ -184,22 +184,24 @@ video{
 .spot p{
     margin: 3%;
 }
-.lesson1,.lesson2{
+.lesson{
     width: 88%;
-    margin: 0 auto;
-    padding: 3%;
+    margin: 15% auto 5%;
 }
-.lesson1 img,.lesson2 img{
+.image-pc{
     width: 50%;
     vertical-align: middle;
 }
-.about_lesson{
+.image-sp{
+    display: none;
+}
+.lesson1,.lesson2{
     width: 40%;
     display: inline-block;
     vertical-align: middle;
     margin-left: 3%;
 }
-.lesson1 p,.lesson2 p{
+.about_lesson{
     text-align: left;
     padding: 0 5%;
 }
@@ -299,15 +301,23 @@ footer{
         height: auto;
         padding: 0;
     }
-    .spot h3,.about_lesson h3{
+    .spot h3,.lesson h3{
         font-size: 2.0rem;
     }
-    .about_lesson{
+    .image-pc{
+        display: none;
+    }
+    .image-sp{
         display: block;
-        width: 50%;
+        width: 70%;
+        margin: 10% auto;
+    }
+    .lesson1,.lesson2{
+        display: block;
+        width: 80%;
         margin: 0 auto;
     }
-    .lesson1 p,.lesson2 p{
+    .about_lesson{
         text-align: center;
     }
 }
@@ -374,6 +384,15 @@ footer{
         text-align: left;
         width: 80%;
         margin:5% auto;
+    }
+    .lesson_info{
+        text-align: left;
+    }
+    .image-sp{
+        width: 90%;
+    }
+    .lesson1,.lesson2{
+        width: 100%;
     }
     footer{
         font-size: 1.0rem;
