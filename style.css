@@ -69,8 +69,7 @@ video{
 }
 .about p{
     width: 80%;
-    padding-top: 5%;
-    margin: 0 auto;
+    margin: 5% auto;
 }
 .ranking img{
     width: 70%;
@@ -201,9 +200,27 @@ video{
     vertical-align: middle;
     margin-left: 3%;
 }
+.br-sp{
+    display: none;
+}
 .about_lesson{
     text-align: left;
     padding: 0 5%;
+}
+.lesson dl{
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+}
+.lesson dt{
+    float: left;
+    font-weight: bold;
+}
+.lesson dt:after{
+    content: "：";
+}
+.lesson dd{
+    margin-left: 80px;
 }
 .capacity1{
     color: blue;
@@ -211,7 +228,6 @@ video{
 .capacity2{
     color: red;
 }
-/* 各レッスンの情報の項目や改行は次回見やすく整えます */
 .reserve_lesson{
     width: 80%;
     margin: 0 auto;
@@ -224,15 +240,24 @@ video{
     border-radius: 8px;
     padding: 20px;
 }
-.item{
+.reservation h3{
+    margin: 0;
+}
+.reservation_form dt{
+    float: left;
+    clear: left;
+    padding: 2%;
+    margin-left: 15%;
+}
+.reservation_form dd{
+    margin-left: 55%;
+    padding: 2%;
     text-align: left;
 }
-.label{
-    display: inline-block;
-    padding: 10px;
-    width: 180px;
+.label p{
+    margin: 0;
 }
-/* 予約フォームのレスポンシブ対応は未着手です。 */
+/* 予約フォームのレスポンシブ対応は途中です */
 footer{
     background: #d7ebba;
     padding: 10px;
@@ -317,6 +342,9 @@ footer{
         width: 80%;
         margin: 0 auto;
     }
+    .br-sp{
+        display: block;
+    }
     .about_lesson{
         text-align: center;
     }
@@ -377,22 +405,24 @@ footer{
     .spot img{
         width: 80%;
     }
-    .spot h3{
-        font-size: 1.8rem;
-    }
     .spot p{
         text-align: left;
         width: 80%;
         margin:5% auto;
     }
-    .lesson_info{
+    .lesson_info,.about_lesson{
         text-align: left;
+        width: 80%;
+        margin: 5% auto;
     }
     .image-sp{
         width: 90%;
     }
     .lesson1,.lesson2{
         width: 100%;
+    }
+    .spot h3,.lesson h3,.reservation_form h3{
+        font-size: 1.8rem;
     }
     footer{
         font-size: 1.0rem;
